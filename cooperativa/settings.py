@@ -10,6 +10,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
+    'jazzmin',
     'admin_interface',
     'colorfield',
     'django.contrib.admin',
@@ -86,3 +87,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS = {
+    'site_title': 'COOPERATIVA',
+
+    'site_header': 'COOPERATIVA',
+
+    'site_brand': 'COOPERATIVA',
+
+    'welcome_sign': 'Bem vindo',
+}
